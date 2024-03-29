@@ -62,9 +62,9 @@ hostname: storage-1
 location:
   root: default
   datacenter: dc_accel
-  floor: floor_2
+  room: floor_2
   rack: rack_1
-  position: "21"
+  row: "21"
 ---
 service_type: host
 addr: 10.21.0.11 
@@ -72,9 +72,9 @@ hostname: storage-2
 location:
   root: default
   datacenter: dc_accel
-  floor: floor_2
+  room: floor_2
   rack: rack_1
-  position: "19"
+  row: "19"
 ---
 service_type: host
 addr: 10.21.0.12
@@ -82,9 +82,9 @@ hostname: storage-3
 location:
   root: default
   datacenter: dc_accel
-  floor: floor_2
+  room: floor_2
   rack: rack_1
-  position: "17"
+  row: "17"
 ---
 service_type: host
 addr: 10.21.0.13
@@ -92,9 +92,9 @@ hostname: storage-4
 location:
   root: default
   datacenter: dc_accel
-  floor: floor_2
+  room: floor_2
   rack: rack_1
-  position: "15"
+  row: "15"
 ---
 service_type: host
 addr: 10.21.0.14
@@ -102,9 +102,9 @@ hostname: storage-5
 location:
   root: default
   datacenter: dc_accel
-  floor: floor_2
+  room: floor_2
   rack: rack_1
-  position: "13"
+  row: "13"
 ---
 service_type: host
 addr: 10.21.0.15
@@ -112,9 +112,9 @@ hostname: storage-6
 location:
   root: default
   datacenter: dc_accel
-  floor: floor_2
+  room: floor_2
   rack: rack_1
-  position: "11"
+  row: "11"
 ---
 service_type: mon
 placement:

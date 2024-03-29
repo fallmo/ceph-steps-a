@@ -124,31 +124,31 @@ location:
 service_type: mon
 placement:
   hosts:
-  - storage-1.ceph.heritage.africa
-  - storage-3.ceph.heritage.africa
-  - storage-5.ceph.heritage.africa
+  - storage-1
+  - storage-3
+  - storage-5
 ---
 service_type: mgr
 placement:
   hosts:
-  - storage-2.ceph.heritage.africa
-  - storage-4.ceph.heritage.africa
+  - storage-2
+  - storage-4
 ---
 service_type: mds
 service_id: fsdaemon
 service_name: mds.fsdaemon
 placement:
   hosts:
-  - storage-1.ceph.heritage.africa
-  - storage-5.ceph.heritage.africa
+  - storage-1
+  - storage-4
 ---
 service_type: rgw
 service_id: objectgw
 service_name: rgw.objectgw
 placement:
   hosts:
-  - storage-3.ceph.heritage.africa
-  - storage-6.ceph.heritage.africa
+  - storage-5
+  - storage-6
 spec:
   rgw_frontend_port: 8080
 ---

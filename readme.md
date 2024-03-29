@@ -150,9 +150,8 @@ service_id: all-available-devices
 service_name: osd.all-available-devices
 placement:
   host_pattern: "*"
-spec:
-  data_devices:
-    all: true
+data_devices:
+  all: true
 ```
 ```json
 {

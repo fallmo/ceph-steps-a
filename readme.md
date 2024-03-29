@@ -66,6 +66,8 @@ location:
   room: floor_2
   rack: rack_1
   row: "21"
+labels:
+  - _admin
 ---
 service_type: host
 addr: 10.21.0.11 
@@ -86,6 +88,8 @@ location:
   room: floor_2
   rack: rack_1
   row: "17"
+labels:
+  - _admin
 ---
 service_type: host
 addr: 10.21.0.13
@@ -131,6 +135,8 @@ placement:
   - storage-4.ceph.heritage.africa
 ---
 service_type: mds
+service_id: fsdaemon
+service_name: mds.fsdaemon
 placement:
   hosts:
   - storage-1.ceph.heritage.africa
@@ -147,7 +153,7 @@ spec:
   rgw_frontend_port: 8080
 ---
 service_type: osd
-service_id: all-available-devices
+service_id: default_drive_group
 service_name: osd.all-available-devices
 placement:
   host_pattern: "*"

@@ -139,16 +139,16 @@ service_id: fsdaemon
 service_name: mds.fsdaemon
 placement:
   hosts:
-  - storage-5
-  - storage-6
+  - storage-2
+  - storage-3
 ---
 service_type: rgw
 service_id: objectgw
 service_name: rgw.objectgw
 placement:
   hosts:
-  - storage-1
-  - storage-2
+  - storage-5
+  - storage-6
 spec:
   rgw_frontend_port: 8080
 ---

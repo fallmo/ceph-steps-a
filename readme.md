@@ -58,7 +58,7 @@ ansible-playbook -i ./hosts ./cephadm-preflight.yml --extra-vars "ceph_origin=rh
 ```yaml
 service_type: host
 addr: 10.21.0.10 
-hostname: storage-1.ceph.heritage.africa
+hostname: storage-1
 location:
   root: default
   datacenter: dc_accel
@@ -68,7 +68,7 @@ location:
 ---
 service_type: host
 addr: 10.21.0.11 
-hostname: storage-2.ceph.heritage.africa
+hostname: storage-2
 location:
   root: default
   datacenter: dc_accel
@@ -78,7 +78,7 @@ location:
 ---
 service_type: host
 addr: 10.21.0.12
-hostname: storage-3.ceph.heritage.africa
+hostname: storage-3
 location:
   root: default
   datacenter: dc_accel
@@ -88,7 +88,7 @@ location:
 ---
 service_type: host
 addr: 10.21.0.13
-hostname: storage-4.ceph.heritage.africa
+hostname: storage-4
 location:
   root: default
   datacenter: dc_accel
@@ -98,7 +98,7 @@ location:
 ---
 service_type: host
 addr: 10.21.0.14
-hostname: storage-5.ceph.heritage.africa
+hostname: storage-5
 location:
   root: default
   datacenter: dc_accel
@@ -108,7 +108,7 @@ location:
 ---
 service_type: host
 addr: 10.21.0.15
-hostname: storage-6.ceph.heritage.africa
+hostname: storage-6
 location:
   root: default
   datacenter: dc_accel

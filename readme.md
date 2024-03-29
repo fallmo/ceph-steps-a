@@ -53,6 +53,7 @@ client03
 ```bash
 ansible-playbook -i ./hosts ./cephadm-preflight.yml --extra-vars "ceph_origin=rhcs"
 ```
+6. Copy root ssh public key to hosts, as well as ceph.pub and also ceph.conf file
 
 6. Create Spec file (spec.yaml) and ./registry.json file
 ```yaml

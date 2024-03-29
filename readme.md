@@ -125,13 +125,13 @@ service_type: mon
 placement:
   hosts:
   - storage-1
+  - storage-2
   - storage-3
-  - storage-5
 ---
 service_type: mgr
 placement:
   hosts:
-  - storage-2
+  - storage-3
   - storage-4
 ---
 service_type: mds
@@ -139,16 +139,16 @@ service_id: fsdaemon
 service_name: mds.fsdaemon
 placement:
   hosts:
-  - storage-1
-  - storage-4
+  - storage-5
+  - storage-6
 ---
 service_type: rgw
 service_id: objectgw
 service_name: rgw.objectgw
 placement:
   hosts:
-  - storage-5
-  - storage-6
+  - storage-1
+  - storage-2
 spec:
   rgw_frontend_port: 8080
 ---

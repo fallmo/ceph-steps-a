@@ -4,7 +4,6 @@
 - osd (disks)
 - mds (filesystem manager)
 - rgw (rados object gateway)
--
 
 
 # Install steps
